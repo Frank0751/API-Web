@@ -156,12 +156,18 @@ h1 {
 
 #search-button {
         color: black;
+        font-weight: bold;
         border: 1px;
         border-radius: 0px 25px 25px 0px;
         height: 53px;
         margin-left: -6px;   
         width: 337px;
         background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17) 87.1%);
+}
+
+#search-button:hover {
+        background-color: black;
+        color: white;
 }
 
 #articles {

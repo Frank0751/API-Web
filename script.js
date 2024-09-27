@@ -3,7 +3,7 @@ const searchButton = document.getElementById("search-button")
 searchButton.addEventListener("click", () => {
     const searchTerm = document.getElementById("searchQuery").value;
 
-    fetch(`https://newsapi.org/v2/everything?q=${searchTerm}&apiKey=8cee277f628b44c4804740136527de2c&pageSize=30`)
+    fetch(`https://newsapi.org/v2/everything?q=${searchTerm}&apiKey=8cee277f628b44c4804740136527de2c&pageSize=50`)
         .then(function (response) {
             // console.log(response.body);
             return response.json();
